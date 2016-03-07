@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rixon.learn.springcloud</groupId>
-  <artifactId>reservation-cloud-app</artifactId>
+  <artifactId>cloud-deep-dive</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -24,11 +24,10 @@
   </parent>
 
   <modules>
-    <module>reservation-service</module>
-    <module>config-service</module>
-    <module>eureka-service</module>
-    <module>reservation-client</module>
-    <module>hystrix-dashboard</module>
+    <module>contract-service</module>
+    <module>asset-service</module>
+    <module>price-service</module>
+    <module>rules-service</module>
   </modules>
 
   <repositories>
